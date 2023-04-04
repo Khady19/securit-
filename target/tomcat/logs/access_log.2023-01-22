@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [22/Jan/2023:23:56:44 +0000] "GET / HTTP/1.1" 200 2078 http-bio-8080-exec-1 387
+0:0:0:0:0:0:0:1 - - [22/Jan/2023:23:56:45 +0000] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-2 12
+0:0:0:0:0:0:0:1 - - [22/Jan/2023:23:56:46 +0000] "GET /images/bg.jpg HTTP/1.1" 404 977 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [22/Jan/2023:23:56:59 +0000] "POST /login HTTP/1.1" 302 - http-bio-8080-exec-5 5651
+0:0:0:0:0:0:0:1 - - [22/Jan/2023:23:56:59 +0000] "GET /home HTTP/1.1" 200 3791 http-bio-8080-exec-6 206
+0:0:0:0:0:0:0:1 - - [22/Jan/2023:23:56:59 +0000] "GET /css/bootstrap.min.css HTTP/1.1" 404 993 http-bio-8080-exec-7 1
+0:0:0:0:0:0:0:1 - - [22/Jan/2023:23:56:59 +0000] "GET /css/style.css HTTP/1.1" 404 977 http-bio-8080-exec-9 4
+0:0:0:0:0:0:0:1 - - [22/Jan/2023:23:57:26 +0000] "GET /Droit HTTP/1.1" 200 313 http-bio-8080-exec-1 1400
+0:0:0:0:0:0:0:1 - - [22/Jan/2023:23:57:35 +0000] "POST /Droit HTTP/1.1" 200 492 http-bio-8080-exec-4 128
+0:0:0:0:0:0:0:1 - - [22/Jan/2023:23:57:39 +0000] "GET /home HTTP/1.1" 200 3791 http-bio-8080-exec-6 36
+0:0:0:0:0:0:0:1 - - [22/Jan/2023:23:57:39 +0000] "GET /css/style.css HTTP/1.1" 404 977 http-bio-8080-exec-5 1
+0:0:0:0:0:0:0:1 - - [22/Jan/2023:23:57:39 +0000] "GET /css/bootstrap.min.css HTTP/1.1" 404 993 http-bio-8080-exec-6 1

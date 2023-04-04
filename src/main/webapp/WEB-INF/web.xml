@@ -1,0 +1,73 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+   <servlet>
+  	<servlet-name>ComptesServlet</servlet-name>
+  	<display-name>ComptesServlet</display-name>
+  	<description></description>
+  	<servlet-class>sn.isi.controller.ComptesServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DroitsServlet</servlet-name>
+  	<display-name>DroitsServlet</display-name>
+  	<description></description>
+  	<servlet-class>sn.isi.controller.DroitsServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>sn.isi.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<display-name>HomeServlet</display-name>
+  	<description></description>
+  	<servlet-class>sn.isi.controller.HomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EditCompteServlet</servlet-name>
+  	<display-name>EditCompteServlet</display-name>
+  	<description></description>
+  	<servlet-class>sn.isi.controller.EditCompteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddCompteServlet</servlet-name>
+  	<display-name>AddCompteServlet</display-name>
+  	<description></description>
+  	<servlet-class>sn.isi.controller.AddCompteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListeCompteServlet</servlet-name>
+  	<display-name>ListeCompteServlet</display-name>
+  	<description></description>
+  	<servlet-class>sn.isi.controller.ListeCompteServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+  	<servlet-name>ComptesServlet</servlet-name>
+  	<url-pattern>/ComptesServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DroitsServlet</servlet-name>
+  	<url-pattern>/DroitsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditCompteServlet</servlet-name>
+  	<url-pattern>/comptes/edit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListeCompteServlet</servlet-name>
+  	<url-pattern>/comptes/liste</url-pattern>
+  </servlet-mapping>
+</web-app>
